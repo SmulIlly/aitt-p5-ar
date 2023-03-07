@@ -61,3 +61,5 @@ crashlytics-build.properties
 
 .DS_Store
 
+# Large files
+com.ptc.vuforia.engine-*.tgz
