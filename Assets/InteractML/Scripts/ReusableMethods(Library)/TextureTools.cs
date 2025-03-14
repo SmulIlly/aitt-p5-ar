@@ -14,6 +14,11 @@ public class Utilities : EditorWindow
     {
         return EditorUtility.OpenFolderPanel("Chosee Path", path, "*.*");
     }
+
+    internal static void CopyMemory(IntPtr pointer, IntPtr data, int v)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 public enum Options
